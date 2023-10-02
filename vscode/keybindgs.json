@@ -1,3 +1,4 @@
+// 既定値を上書きするには、このファイル内にキー バインドを挿入します
 [
   {
     "command": "vscode-neovim.compositeEscape1",
@@ -5,9 +6,47 @@
     "when": "neovim.mode == insert && editorTextFocus",
     "args": "j"
   },
+  // filer
   {
     "command": "workbench.action.toggleSidebarVisibility",
     "key": "ctrl+n",
-    "when": "neovim.mode == normal"
-  }
+    "when": "neovim.mode == normal && filesExplorerFocus",
+  },
+  {
+    "command": "workbench.explorer.fileView.focus",
+    "key": "ctrl+n",
+    "when": "neovim.mode == normal && !filesExplorerFocus"
+  },
+  {
+    "command": "explorer.newFile",
+    "key": "shift+n",
+    "when": "explorerViewletVisible && filesExplorerFocus && !inputFocus"
+  },
+  {
+    "command": "explorer.newFolder",
+    "key": "shift+k",
+    "when": "explorerViewletVisible && filesExplorerFocus && !inputFocus"
+  },
+  {
+    "command": "renameFile",
+    "key": "shift+R",
+    "when": "explorerViewletVisible && filesExplorerFocus && !inputFocus"
+  },
+  {
+    "command": "deleteFile",
+    "key": "shift+d",
+    "when": "explorerViewletVisible && filesExplorerFocus && !inputFocus"
+  },
+  {
+    "command": "filesExplorer.cut",
+    "key": "shift+m",
+    "when": "explorerViewletFocus && explorerViewletVisible && !inputFocus"
+  },
+  {
+    "command": "filesExplorer.paste",
+    "key": "shift+p",
+    "when": "explorerViewletFocus && explorerViewletVisible && !inputFocus"
+  },
+
+
 ]
