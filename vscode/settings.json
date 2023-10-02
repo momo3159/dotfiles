@@ -1,0 +1,155 @@
+{
+  "files.autoSave": "afterDelay",
+  "editor.tabSize": 2,
+  "editor.suggestSelection": "first",
+  "editor.codeActionsOnSave": {
+      "source.fixAll.eslint": true
+  },
+  "editor.formatOnSave": false,
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "editor.scrollBeyondLastLine": false,
+  "editor.renderControlCharacters": true,
+  "editor.minimap.enabled": false,
+  "editor.lineNumbers": "relative",
+  "[graphql]": {
+      "editor.formatOnSave": true
+  },
+  "[javascript]": {
+      "editor.formatOnSave": true,
+      "editor.defaultFormatter": "vscode.typescript-language-features"
+  },
+  "[json]": {
+      "editor.formatOnSave": true
+  },
+  "[typescript]": {
+      "editor.formatOnSave": true
+  },
+  "[typescriptreact]": {
+      "editor.formatOnSave": true
+  },
+  "eslint.packageManager": "yarn",
+  "typescript.enablePromptUseWorkspaceTsdk": true,
+  "typescript.tsdk": "./node_modules/typescript/lib",
+  "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
+  "workbench.colorTheme": "Iceberg",
+  "workbench.iconTheme": "material-icon-theme",
+  "workbench.editorAssociations": {
+      "*.ipynb": "jupyter-notebook"
+  },
+  "python.pythonPath": "/usr/local/bin/python3",
+  "code-runner.runInTerminal": true,
+  "code-runner.executorMap": {
+      "python": "/usr/local/bin/python3"
+  },
+  "[html]": {
+      "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "workbench.startupEditor": "newUntitledFile",
+  "vscode-neovim.neovimExecutablePaths.darwin": "/usr/local/bin/nvim",
+  "vscode-neovim.neovimInitVimPaths.darwin": "/Users/tomoya/.config/nvim/init.lua",
+  "bracket-pair-colorizer-2.depreciation-notice": false,
+  "files.watcherExclude": {
+      "**/.bloop": true,
+      "**/.metals": true,
+      "**/.ammonite": true
+  },
+  "editor.tokenColorCustomizations": {
+      "textMateRules": [
+          {
+              "scope": "text.html.markdown.journal.task.open.bullet",
+              "settings": {
+                  "foreground": "#FFFF00"
+              }
+          },
+          {
+              "scope": "text.html.markdown.journal.task.open.marker",
+              "settings": {
+                  "foreground": "#FFFF00"
+              }
+          },
+          {
+              "scope": "text.html.markdown.journal.task.open.keyword",
+              "settings": {
+                  "fontStyle": "italic"
+              }
+          },
+          {
+              "scope": "text.html.markdown.journal.task.open.text",
+              "settings": {}
+          },
+          {
+              "scope": "text.html.markdown.journal.task.completed.keyword",
+              "settings": {
+                  "fontStyle": "italic"
+              }
+          },
+          {
+              "scope": "text.html.markdown.journal.task.completed.marker",
+              "settings": {
+                  "foreground": "#AAAAAA"
+              }
+          },
+          {
+              "scope": "text.html.markdown.journal.task.completed.text",
+              "settings": {
+                  "foreground": "#AAAAAA"
+              }
+          },
+          {
+              "scope": "text.html.markdown.journal.task.completed.bullet",
+              "settings": {
+                  "foreground": "#FFFF00"
+              }
+          },
+          {
+              "scope": "text.html.markdown.journal.memo.keyword",
+              "settings": {
+                  "fontStyle": "italic"
+              }
+          },
+          {
+              "scope": "text.html.markdown.journal.memo.bullet",
+              "settings": {
+                  "foreground": "#FFFF00"
+              }
+          },
+          {
+              "scope": "text.html.markdown.journal.scope",
+              "settings": {
+                  "foreground": "#FFFF00"
+              }
+          },
+          {
+              "scope": "text.html.markdown.journal.link.keyword",
+              "settings": {
+                  "fontStyle": "italic"
+              }
+          },
+          {
+              "scope": "text.html.markdown.journal.link.bullet",
+              "settings": {
+                  "foreground": "#FFFF00"
+              }
+          }
+      ]
+  },
+  "glassit.alpha": 80,
+  "[python]": {
+      "editor.formatOnType": true
+  },
+  "window.zoomLevel": -1,
+  "editor.fontFamily": "FirgeNerd,Menlo, Monaco, 'Courier New', monospace",
+  "extensions.experimental.affinity": {
+      "asvetliakov.vscode-neovim": 1
+  },
+  "editor.autoClosingQuotes": "never",
+  "editor.autoSurround": "never",
+  "editor.autoClosingBrackets": "never",
+  "files.trimTrailingWhitespace": true,
+  // filer
+  "workbench.list.keyboardNavigation": "simple",
+  // ファイルプレビューは無効化(開かれたファイルタブを永続化)
+  "workbench.editor.enablePreview": false,
+  "workbench.editor.enablePreviewFromQuickOpen": false,
+
+}
